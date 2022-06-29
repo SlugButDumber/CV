@@ -1,0 +1,41 @@
+/*ID is used for pointing to a SINGLE element but class may be used for multiple elements of the page*/
+
+/********************************Tag Selectors********************************/
+
+
+body {
+    background-color: #eaf6f6;
+}
+
+hr {
+    border-color: #43635b;
+    border-style: none;               
+    border-top-style: dotted;    
+    border-width: 7px;
+    width: 10%; 
+}
+
+h1 {
+    color: #66bfbf;
+}
+
+h3 {
+    color: #66bfbf;
+}
+
+img:hover {
+    background-color: #43635b;
+    border-radius: 100%;
+    height: 160px;
+}
+
+/********************************Class Selectors********************************/
+.dp {
+    height: 150px;
+}
+
+/********************************ID Selectors********************************/
+
+#name {
+    color: #66bfbf;
+}
